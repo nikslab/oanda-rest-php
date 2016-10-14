@@ -112,7 +112,7 @@ class OandaAPI {
      *
      * @param array $instruments array of currency pairs in the format XXX_YYY
      *
-     * @returns array of instrument prices, sample JSON response that gets converted
+     * @return array of instrument prices, sample JSON response that gets converted
      *          to an array:
      *
      *   {
@@ -169,7 +169,7 @@ class OandaAPI {
      *
      * @author  Nik Stankovic
      *
-     * @returns an array with info about the account, sample JSON response that gets converted:
+     * @return an array with info about the account, sample JSON response that gets converted:
      *
      *   {
      *     "accountId" : 8954947,
@@ -222,7 +222,7 @@ class OandaAPI {
      * takeProfit: Optional The take profit price.
      * trailingStop: Optional The trailing stop distance in pips, up to one decimal place.
      *
-     * @returns an array with info about the account, sample JSON response that gets converted:
+     * @return an array with info about the account, sample JSON response that gets converted:
      *
      *   {
      *     "accountId" : 8954947,
@@ -259,7 +259,7 @@ class OandaAPI {
      * @param integer $n optional number of results to return, default is 50, max 500
      * @param string $instrument optional One currency pair in the format XXX_YYY
      *
-     * @returns array with list of orders, sample JSON response that gets converted:
+     * @return array with list of orders, sample JSON response that gets converted:
      *
      *   {
      *     "orders" : [
@@ -320,7 +320,7 @@ class OandaAPI {
      *
      * @param string $orderId Oanda Order ID
      *
-     * @returns array with info about the order, sample JSON response that gets converted:
+     * @return array with info about the order, sample JSON response that gets converted:
      *
      *   {
      *     "id" : 43211,                        // The ID of the order
@@ -362,7 +362,7 @@ class OandaAPI {
      *
      * @param string $orderId Oanda Order ID
      *
-     * @returns array with info about the order, sample JSON response that gets converted:
+     * @return array with info about the order, sample JSON response that gets converted:
      *
      *   {
      *     "id" : 54332,                   // The ID of the close order transaction
@@ -397,7 +397,7 @@ class OandaAPI {
      * @param integer $n optional number of results to return, default is 50, max 500
      * @param string $instrument optional One currency pair in the format XXX_YYY
      *
-     * @returns array with list of trades, sample JSON response that gets converted to an array:
+     * @return array with list of trades, sample JSON response that gets converted to an array:
      *
      *   {
      *    "trades" : [
@@ -452,7 +452,7 @@ class OandaAPI {
      *
      * @param string $tradeId Oanda trade
      *
-     * @returns array with info about the trade, sample JSON response that gets converted to an
+     * @return array with info about the trade, sample JSON response that gets converted to an
      *                array:
      *
      *   {
@@ -495,7 +495,7 @@ class OandaAPI {
      *
      * @param string $tradeId Oanda trade ID
      *
-     * @returns array with info about the trade, sample JSON response that gets converted to an
+     * @return array with info about the trade, sample JSON response that gets converted to an
      *                array:
      *
      *   {
@@ -532,7 +532,7 @@ class OandaAPI {
      * @param string $instrument one instrument for which listing is wanted, if left blank will
      *                           list positions for all instruments
      *
-     * @returns array with info about positions, sample JSON response that gets converted:
+     * @return array with info about positions, sample JSON response that gets converted:
      *
      *   {
      *     "positions" : [
@@ -582,7 +582,7 @@ class OandaAPI {
      * @param integer $n optional number of results to return, default is 50, max 500
      * @param string $instrument optional One currency pair in the format XXX_YYY
      *
-     * @returns array with list of transactions.  Exact fields will depend on the type of
+     * @return array with list of transactions.  Exact fields will depend on the type of
      *                transaciton.  For details of transaction type, see
      *                http://developer.oanda.com/rest-live/transaction-history/#transactionTypes
      *                Most transaction types though contain at least id, account, time and type.
@@ -623,7 +623,7 @@ class OandaAPI {
      *
      * @param string $transactionId Oanda transaction ID
      *
-     * @returns array with trasaction information.  Exact fields will depend on the type of
+     * @return array with trasaction information.  Exact fields will depend on the type of
      *                transaciton.  For details of transaction type, see
      *                http://developer.oanda.com/rest-live/transaction-history/#transactionTypes
      *                Most transaction types though contain at least id, account, time and type.
