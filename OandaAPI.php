@@ -63,7 +63,7 @@ class OandaAPI {
      * @param string $URL Full URL
      * @param string $post optional data to post, passed on directly so prepare yourself
      *
-     * @returns JSON decoded API response as an array
+     * @return JSON decoded API response as an array
      *
      */
     public function curlCall($method, $headers, $URL, $post = "")
