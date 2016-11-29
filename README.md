@@ -4,10 +4,10 @@ Oanda (http://oanda.com) is a leading forex broker enabling you to trade over 90
 
 Once you sign-up, you can use Oanda though the web interface or through an API. Using the API you can get real time pricing for all currency pairs, make orders and find out what happened to them, as well get your balance and other account information.  Full API documentaion is here: http://developer.oanda.com/rest-live/introduction/
 
-Using the API you can also create services such as:
+Per Oanda blurb, using the API you can also create services such as:
 
 * Automated trading strategies in any programming language
-* Providing exchange rates for eCommerce companies
+* Provide exchange rates for eCommerce companies
 * Hedge currency risks for other companies
 * Implement high frequency trading algorithms that make money while you sleep
 * Build a “Chart Chat” service that combines our chart data with the StockTwits API
