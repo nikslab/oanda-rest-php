@@ -17,5 +17,5 @@ This library is a PHP class that allows you to easily connect to Oanda REST API.
 
 The author has no affiliation with Oanda and this software is provided as-is with no claim or guarantee that it is suitable for any particular purpose.  Please read the License.
 
-You will need to replace your credentials in the credentials.json in order to be able to get responses from the API.  You need a Personal Access Token.  In order to do this, once you create and account, login to Oanda web site and go to your Account Management Portal (AMP) on fxTrade and select “Manage API Access” under “Other Actions”.
+You will need to replace your credentials in the credentials.json in order to be able to get responses from the API.  You need a Personal Access Token.  In order to do this, once you create an Oanda account, login to the web site and go to your Account Management Portal (AMP) on fxTrade and select “Manage API Access” under “Other Actions”.
 
